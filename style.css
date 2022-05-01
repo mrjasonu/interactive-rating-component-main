@@ -1,0 +1,75 @@
+html {
+    background-color: #141519;
+    font-family: 'Overpass';
+}
+
+.square {
+    box-sizing: border-box;
+    display: block;
+    margin: 200px auto;
+    background-color: #222832;
+    width: 425px;
+    height: 420px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 16px 12px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 16px 12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 16px 12px rgba(0,0,0,0.75);
+    padding-top: 30px;
+    padding-left: 28px;
+    padding-right: 18px;
+}
+
+.star-circle {
+    background-color: #151920;
+    display: block;
+    padding: 5px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+.star-circle img {
+    margin: 9.5px;
+}
+
+h1 {
+    font-weight: 700;
+    /* margin-left: 10px; */
+    color: white;
+    font-weight: 22px;
+}
+
+p {   
+    color: hsl(217, 12%, 63%);
+}
+
+.option-area {
+    display: flex;
+}
+
+.option-area button {
+    background-color: #151920;
+    color: white;
+    font-weight: bolder;
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid transparent;
+    font-size: 13px;
+    /* border: 1px solid #151920; */
+}
+
+#submit-button {
+    background-color: #FC7612;
+    color: white;
+    font-size: 17px;
+    letter-spacing: 2px;
+    width: 360px;
+    height: 45px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    margin-top: 20px;
+}
